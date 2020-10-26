@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Secreto </title>
+	<meta name="descripton" content="">
+	<meta name="keywords" content="">
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="Paulo Albuquerque">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+		integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<!--CACEÇALHO-->
+	<header class="cabecalho container">
+		<a href="index.html"></a>
+		<button class="btn-menu bg-gradient"> <i class="fas fa-bars"></i> </button>
+		<nav class="menu">
+			<a class="btn-close"><i class="fa fa-times"></i></a>
+			<ul style="list-style-type: none;">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="cardapio.html">Cardápio</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="burger-bacon-cardapio">
+		<img src="img/secreto.jpg" alt="burger">
+	</div>
+	<!--RODAPÉ-->
+	<footer class="rodape container bg-gradient">
+		<div class="social-icons">
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+		</div>
+		<p class="copyright">
+			Copyright 2020. Secreto Burger & Beer.
+		</p>
+	</footer>
+
+	<!--JQUEERY -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(".btn-menu").click(function () {
+			$(".menu").show();
+		});
+		$(".btn-close").click(function () {
+			$(".menu").hide();
+		});
+	</script>
+</body>
+
+</html>
